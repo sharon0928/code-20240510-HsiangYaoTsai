@@ -5,7 +5,8 @@
 ##### 3.	Column Management: Automating the deletion of unnecessary columns to streamline the dataset.
 ##### 4.	Outlier Detection: Implementing automated restrictions and rules to identify and handle outliers.
 ##### 5.	Data Transformation: Converting categorical variables into dummy variables for analytical purposes through automated processes.
-## Manual Tasks - Despite automation, certain tasks require manual intervention to ensure data integrity:
+## Manual Tasks
+### Despite automation, certain tasks require manual intervention to ensure data integrity:
 ##### 1.	Exception Handling: Identifying and rectifying anomalies or nonsensical data entries that automation might miss.
 ##### 2.	Initial Data Review: Manually inspecting the dataset upon receipt to catch and correct human errors. For example:
 ###### •	In the *“contract_type”* column, correcting entries like “wide area” to the appropriate type.
