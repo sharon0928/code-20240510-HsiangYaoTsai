@@ -8,7 +8,7 @@ Created on Fri May 10 13:11:42 2024
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-tsv_file = '/Users/hsiangyao/Downloads/interview_analysis_molecule_x_10mg_v1.tsv'
+tsv_file = '/Users/hsiangyao/Downloads/analysis_molecule_x_10mg_v1.tsv'
 df = pd.read_csv(tsv_file, sep='\t')
 
 # Write the DataFrame to a CSV file
@@ -16,7 +16,7 @@ csv_file= 'interview_analysis_molecule_x_10mg_v1.csv'
 df.to_csv(csv_file, index=False)
 
 # Load the CSV file into a DataFrame
-df_csv = pd.read_csv("/Users/hsiangyao/Downloads/interview_analysis_molecule_x_10mg_v1.csv")
+df_csv = pd.read_csv("/Users/hsiangyao/Downloads/analysis_molecule_x_10mg_v1.csv")
 
 # Plot charts to understand the relationship between Winner and Winner Price
 plt.figure(figsize=(5, 3))
@@ -63,5 +63,5 @@ df = pd.get_dummies(df, columns=["buyer", "region", "contract_type","winner"])
 
 df.head()
 
-csv_file= 'interview_analysis_molecule_x_10mg_v2.csv'
+csv_file= 'analysis_molecule_x_10mg_v2.csv'
 df.to_csv(csv_file, index=False)
